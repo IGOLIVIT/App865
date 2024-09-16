@@ -481,7 +481,7 @@ struct ProjectsView: View {
                     
                     Button(action: {
                         
-                        guard let url = URL(string: "") else { return }
+                        guard let url = URL(string: "https://www.termsfeed.com/live/ae87df90-c32c-493a-84ec-68e39c29e6df") else { return }
                         
                         UIApplication.shared.open(url)
                         
